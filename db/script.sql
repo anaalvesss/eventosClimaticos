@@ -1,7 +1,7 @@
 drop database if exists registros_climaticos;
 create database registros_climaticos;
 use registros_climaticos;
--- DDL para criar as tabelas do banco de dados
+
 create table usuario (
     id int not null auto_increment primary key,
     nome varchar(100) not null,
@@ -22,7 +22,6 @@ create table evento (
 alter table evento add
 constraint fk_registra foreign key (usuarioId) references usuario(id);
 
--- DML para inserir dados de exemplo nas tabelas
 insert into usuario (nome, email, senha) values
 ('Maria Oliveira', 'maria.oliveira@email.com', password('senha123')),
 ('João Silva', 'joao.silva@email.com', password('senha123')),

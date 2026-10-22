@@ -1,7 +1,9 @@
 Aula 09 PBE1 - 08/10/2026
 
 ## Eventos Climáticos 
-### - Projeto BackEnd 
+### Projeto BackEnd Descrição
+Este projeto consiste em um backend para o gerenciamento de usuários e eventos climáticos.
+O sistema permite cadastrar, listar, atualizar e excluir usuários e eventos climáticos, além de consultar um resumo dos eventos com a média das temperaturas registradas.
 
 ### MER & DER conceitual e lógico
 ``` MER DER ``` 
@@ -20,7 +22,7 @@ Aula 09 PBE1 - 08/10/2026
 - VS Code
 
 ### Instruções para testar
-1 - Use os códigos no repositório acima, inicia o servidor no terminal (CMD ou NODE): 
+1 - Use os códigos no repositório acima, inicie o servidor no terminal (CMD ou NODE) com as dependências: 
 - npm init -y
 - npm i express cors
 - npm install mysql
@@ -30,10 +32,25 @@ Aula 09 PBE1 - 08/10/2026
 
 ### Thunder prints
 
-``` listar ```
+``` listar usuários ```
 
 ![listar](/docs/listaUsuarios.png)
 
 ``` servidor ```
 
 ![servidor](/docs/ServidorThunder.png)
+
+``` mudar/atualizar usuários ```
+![put](/docs/putUsuario.png)
+
+``` deletar usuários ```
+![del]()
+
+``` listar eventos ``` 
+![get](/docs/listarEventos.png)
+
+``` mudar/atualizar ```
+![put](/docs/putEventos.png)
+
+``` deletar eventos ``` 
+![del](/docs/DELeventos.png)
