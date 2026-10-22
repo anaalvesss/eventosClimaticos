@@ -44,7 +44,7 @@ O sistema permite cadastrar, listar, atualizar e excluir usuários e eventos cli
 ![put](/docs/putUsuario.png)
 
 ``` deletar usuários ```
-![del]()
+![del](/docs/DELusuarios.png)
 
 ``` listar eventos ``` 
 ![get](/docs/listarEventos.png)
@@ -54,3 +54,6 @@ O sistema permite cadastrar, listar, atualizar e excluir usuários e eventos cli
 
 ``` deletar eventos ``` 
 ![del](/docs/DELeventos.png)
+
+``` login de usuários ```
+![login](/docs/loginUsuarios.png)
