@@ -49,7 +49,7 @@ O sistema permite cadastrar, listar, atualizar e excluir usuários e eventos cli
 ``` listar eventos ``` 
 ![get](/docs/listarEventos.png)
 
-``` mudar/atualizar ```
+``` mudar/atualizar eventos```
 ![put](/docs/putEventos.png)
 
 ``` deletar eventos ``` 
